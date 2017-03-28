@@ -3,7 +3,9 @@ from sys import argv
 
 script, first, second, third = argv
 #assigns the varialbes to arguments that I list in the terminal
+#unpacks the args and puts them into different variables
 
-print "The script is called:", first
-print "Your first variable is:", second
-print "Your second variable is",third
+print "The script is called:", script
+print "Your first variable is:", first
+print "Your second variable is:", second
+print "Your third variable is:", third
